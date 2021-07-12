@@ -1,0 +1,42 @@
+// logo header
+
+.logo__header {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--logo-web-color);
+  text-shadow: var(--text-shadow-logo);
+  margin-right: 93px;
+
+  .studio__header {
+    color: var(--logo-studio-header-color);
+  }
+}
+
+// logo footer
+
+
+.footer__logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--logo-web-color);
+  margin-bottom: 20px;
+
+  .footer__studio {
+    color: var(--nav-background-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+  }
+}

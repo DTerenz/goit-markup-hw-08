@@ -1,0 +1,80 @@
+// ul specifics list
+
+@media screen and (min-width: 480px) {
+  .specifics__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .specifics__item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .specifics__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .specifics__item {
+    width: calc((100% - 2 * 15px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .specifics__list {
+    display: flex;
+
+    .specifics__item {
+      width: 270px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+// div specific thumb
+
+.specific__thumb {
+  height: 120px;
+  display: flex;
+  background: var(--our-team-bloc-background-color);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  .specific-thumb-item {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+// tittle
+
+
+
+//description
+
+.specific__description {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--contact-menu-itam-color);
+}

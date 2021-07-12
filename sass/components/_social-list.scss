@@ -1,0 +1,138 @@
+
+
+
+
+// ul team social list
+
+.team__social-list{
+  display: flex;
+  list-style: none;
+
+
+
+
+  @media screen and (min-width: 480px) {
+        padding-left: 122px;
+        padding-bottom: 24px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+        padding-left: 74px;
+        padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+
+        padding-left: 32px;
+        padding-bottom: 32px;
+}
+
+  .team__social-item {
+    width: 44px;
+    height: 44px;
+
+
+    .btn-icon {
+      display: block;
+      width: 20px;
+      height: 20px;
+      fill: var(--nav-background-color);
+    }
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+// link items
+
+.team__social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-focus-color);
+    outline: none;
+    fill: var(--nav-background-color);
+  }
+}
+
+.team-card-social-link-icon {
+  display: block;
+  fill: var(--svg-icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .team__social-link:hover &,
+  .team__social-link:focus & {
+    fill: var(--nav-background-color);
+  }
+}
+
+.footer__social-item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  & .footer__social-link:hover,
+  & .footer__social-link:focus {
+    background-color: var(--hover-focus-color);
+    outline: none;
+  }
+}
+
+.footer__social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  widows: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--social-list-item-link-background-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__social--list {
+  display: flex;
+  list-style: none;
+
+  @media screen and (min-width: 480px) {
+   justify-content: center;
+      }
+}
+
+.footer__social {
+  padding: 0;
+  margin: 0;
+  margin-left: 70px;
+
+
+  @media screen and (min-width: 480px) {
+    margin-left: 0px;
+    margin-top: 60px;
+
+      }
+      @media screen and (min-width: 768px) {
+        margin-left: 0px;
+        margin-top: 0px;
+    
+          }
+      @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+        margin-top: 0;
+    
+          }
+}
+
+
